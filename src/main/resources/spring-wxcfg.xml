@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--加载资源文件-->
+    <!--<context:property-placeholder location="classpath:resource.properties"/>-->
+
+   <!-- <bean id="config" class="com.github.binarywang.wxpay.config.WxPayConfig">
+        <property name="appId" value="${appId}"/>
+        <property name="mchId" value="${mchId}"/>
+        <property name="mchKey" value="${mchKey}"/>
+    </bean>
+    <bean id="wxPayService" class="com.github.binarywang.wxpay.service.impl.WxPayServiceImpl">
+        <property name="config" ref="config"/>
+    </bean>-->
+</beans>
